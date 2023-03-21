@@ -1,58 +1,60 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    }
-    
-    body{
-        background-color: gray;
-        background-image: url(../images/comfortable-office-room-with-laptop-computer-office-supplies-white-wooden-table_67155-4101.jpg);
-        background-repeat:no-repeat;
-        background-position: center;
-        background-size: cover;
-        background-blend-mode:color-burn;
-        height: 100vh;
-        
-    }
-    #contact{
-        text-align: center;
-        margin-top: 10rem;
-    }
-    h1{
-        text-align: center;
-        color:orange;
-        margin-top: 5rem;
-        font-weight: 700;
-        font-size: 900;
-    }
-    .label-color{
-        color: #fff;
-    }
-    input{
-        
-            margin-left: 4.5vw;
-            width: 20rem;
-            height: 5vh;
-            border-radius: 10px;
-            border: none;
-            
-     }
+}
 
-     .Name{
-        margin-top: 2rem;
-     }
+body{
+     background-color: gray;
+     background-image: url(../images/comfortable-office-room-with-laptop-computer-office-supplies-white-wooden-table_67155-4101.jpg);
+     background-repeat:no-repeat;
+     background-position: center;
+     background-size: cover;
+     background-blend-mode:color-burn;
+     height: 100vh;
+}
 
-    .Message{
-        height: 20vh
-    }
-    button{
-        width: 7vw;
-        height: 5vh;
-        border: none;
-        margin-top: 2rem;
-        margin-left: 5rem;
-        border-radius: 10px;
-    }
-    button:hover{
-        background-color: orange;
-        
-    }
+#contact{
+     text-align: center;
+     margin-top: 10rem;
+}
+
+h1{
+    text-align: center;
+    color:orange;
+    margin-top: 5rem;
+    font-weight: 700;
+    font-size: 900;
+}
+
+.label-color{
+    color: #fff;
+}
+
+input{
+     margin-left: 4.5vw;
+     width: 20rem;
+     height: 5vh;
+     border-radius: 10px;
+     border: none;
+}
+
+.Name{
+     margin-top: 2rem;
+}
+
+.Message{
+     height: 20vh
+}
+   
+button{
+     width: 7vw;
+     height: 5vh;
+     border: none;
+     margin-top: 2rem;
+     margin-left: 5rem;
+     border-radius: 10px;
+}
+
+button:hover{
+     background-color: orange;
+}

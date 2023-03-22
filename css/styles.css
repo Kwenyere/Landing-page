@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+    
+body{
+     background-color: gray;
+     background-image: url(../images/comfortable-office-room-with-laptop-computer-office-supplies-white-wooden-table_67155-4101.jpg);
+     background-repeat:no-repeat;
+     background-position: center;
+     background-size: cover;
+     background-blend-mode:color-burn;
+     height: 100vh;
+}
+    
+header{
+     background-color:gray;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+li{
+    margin-right: 5rem;
+}
+    
+a{
+   text-decoration: none;
+   color: #fff;
+   font-size: 1.5rem;
+ }
+ 
+a:hover{
+    color: orange;
+}
+ 
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    position: relative;
+}
+
+h1{
+    font-size: 3.5rem;
+    color: orange;
+    border-bottom: 3px solid;
+    border-left: 3px solid;
+    padding: 0 1rem;
+    margin-top: 15vw;
+}
+
+h3{
+    color:aliceblue;
+    font-size: 2rem;
+    font-family: cursive;
+    margin-top: 2vw;
+    font-weight: bold;
+ }
+
+footer{
+    position: fixed;
+    right: 0;
+    left: 0;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    margin-top: 20rem;
+    font-weight: bolder;
+}
